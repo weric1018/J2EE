@@ -21,15 +21,15 @@ public class ReflectTest {
      */
     public  static  void main(String [] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
 
-       Student student = new Student(18,"John");
-//        Class ca = student.getClass();
-//       showMessage(ca);
-//
-//        ca = Class.forName("wl.std.j2ee.bean.Student");
-//        showMessage(ca);
-//
-//        ca = Student.class;
-//        showMessage(ca);
+      Student student = new Student(18,"John");
+        Class ca = student.getClass();
+       showMessage(ca);
+
+        ca = Class.forName("wl.std.j2ee.bean.Student");
+        showMessage(ca);
+
+        ca = Student.class;
+        showMessage(ca);
 
         Class ct = Student.class;
 
@@ -45,6 +45,7 @@ public class ReflectTest {
            Constructor[] cst =  ct.getConstructors();
            getCollPrint(cst);
            Constructor cst1 = ct.getDeclaredConstructor(int.class,String.class);
+           cst1.setAccessible(true);
            Student  std1 = (Student) cst1.newInstance(new Object[]{19,"李磊"});
            LinePrint.linePrint();
            std1.getInfo();
