@@ -29,3 +29,6 @@ A JAVAEE test program
 ##### Class 
 ##### Reflect  Method  Filed  Constructor
 ##### 泛型  Proxy  InvocationHandler
+##### Exception RuntimeException 
+##### annotation retention  
+##### AWT
