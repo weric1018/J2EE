@@ -23,8 +23,11 @@ public class LambdaTest {
 
         Supplier<JBean> supplier = JBean::new;
 
+        FInterface<JBean> jbean = JBean::new;
 
+        FInterface<JBean> jbeans = ()-> new JBean();
 
+       System.out.println( FInterface.dealMessage("123"));
 
     }
 

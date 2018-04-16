@@ -7,9 +7,9 @@ import java.lang.annotation.Target;
  * Created by yunmeng on 2018/4/12.
  */
 @FunctionalInterface
-public interface FInterface {
+public interface FInterface<T> {
 
-    public void getMessage(JBean jBean);
+    public T get();
 
     default public void state(){
 
