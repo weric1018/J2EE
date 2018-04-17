@@ -32,3 +32,13 @@ A JAVAEE test program
 ##### Exception RuntimeException 
 ##### annotation retention  
 ##### AWT
+##### SOCKET ,DataGram ,Thread  ,IO 
+
+
+### JDK1.8
+####  接口默认方法，静态方法
+####  方法引用
+####  lambda 表达式 
+####  forEach  ,map  
+
+### Junit
