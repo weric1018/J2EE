@@ -17,6 +17,8 @@ A JAVAEE test program
 ##### 策略
 ##### 静态代理
 ##### 动态代理
+##### 观察者模式
+##### 装饰模式
 
 ### 基础 
 
@@ -42,3 +44,9 @@ A JAVAEE test program
 #####  forEach  ,map  
 
 ### Junit
+#####  Assert.fail() 
+#####  Test(timeout,expected)
+#####  装饰模式 ,RepeatedTest
+#####  Parameterized
+#####  @RunWith(Suite.class)
+#####  @RunWith(Parameterized.class)

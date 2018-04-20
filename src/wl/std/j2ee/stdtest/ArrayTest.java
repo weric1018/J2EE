@@ -12,5 +12,10 @@ public class ArrayTest {
 
         int[] arry2 = {1,2,3};
 
+        double a = 2.01;
+        double b = 2.01;
+
+        System.out.println(a == b);
+
     }
 }
